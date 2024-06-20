@@ -55,6 +55,7 @@ export default {
   margin: 0;
 } */
 .form-container {
+  margin: 0 auto;
   background: #fff;
   padding: 2rem;
   border-radius: 10px;

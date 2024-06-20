@@ -11,6 +11,11 @@ const routes = [
     name: "register",
     component: () => import("@/views/RegistrationView.vue"),
   },
+  {
+    path: "/create-task",
+    name: "create-task",
+    component: () => import("@/views/TaskView.vue"),
+  },
 ];
 
 const router = createRouter({
